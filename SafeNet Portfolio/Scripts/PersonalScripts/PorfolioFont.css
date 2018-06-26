@@ -1,11 +1,18 @@
-﻿.font-banner {
+﻿/*
+    Fonts
+*/
+.font-banner {
+    font-family: 'Audiowide', cursive;
+}
 
+.font-header {
+    font-family: 'Audiowide', cursive;
 }
 
 .font-label {
-
+    font-family: 'Audiowide', cursive;
 }
 
 .font-paragraph {
-
+    font-family: 'Open Sans', sans-serif;
 }
