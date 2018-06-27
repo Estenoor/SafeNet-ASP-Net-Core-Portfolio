@@ -151,6 +151,7 @@
     <Compile Include="Controllers\FileIOController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SafeNetController.cs" />
+    <Compile Include="Controllers\UnitConversionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -166,6 +167,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\Images\FileIO\FileIO-Repository-Image-1.PNG" />
+    <Content Include="Resources\Images\FileIO\FileIO-Repository-Image-2.PNG" />
+    <Content Include="Resources\Images\FileIO\FileIO-Repository-Image-3.PNG" />
+    <Content Include="Resources\Images\FileIO\Screenshot_1.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_2.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_3.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_4.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_5.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -200,6 +209,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\FileIO\Index.cshtml" />
     <Content Include="Views\SafeNet\Index.cshtml" />
+    <Content Include="Views\UnitConversion\JavaScript.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
