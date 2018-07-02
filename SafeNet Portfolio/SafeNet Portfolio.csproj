@@ -180,6 +180,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -210,10 +211,12 @@
     <Content Include="Views\FileIO\Index.cshtml" />
     <Content Include="Views\SafeNet\Index.cshtml" />
     <Content Include="Views\UnitConversion\JavaScript.cshtml" />
+    <Content Include="Views\UnitConversion\MvcServer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Resources\Images\UnitConversion\" />
     <Folder Include="Scripts\PersonalScripts\" />
   </ItemGroup>
   <ItemGroup>

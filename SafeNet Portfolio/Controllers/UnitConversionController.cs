@@ -18,5 +18,10 @@ namespace SafeNet_Portfolio.Controllers
         {
             return View("JavaScript");
         }
+
+        public ActionResult MvcServer()
+        {
+            return View("MvcServer");
+        }
     }
 }
