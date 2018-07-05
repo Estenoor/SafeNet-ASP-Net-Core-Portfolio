@@ -149,7 +149,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\FileIOController.cs" />
+    <Compile Include="Controllers\FinalProjectController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SafeNetController.cs" />
+    <Compile Include="Controllers\UnitConversionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -164,11 +167,45 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\Images\ATMProject\Screenshot %2810%29.png" />
+    <Content Include="Resources\Images\ATMProject\Screenshot %286%29.png" />
+    <Content Include="Resources\Images\ATMProject\Screenshot %287%29.png" />
+    <Content Include="Resources\Images\ATMProject\Screenshot %288%29.png" />
+    <Content Include="Resources\Images\ATMProject\Screenshot %289%29.png" />
+    <Content Include="Resources\Images\FileIO\FileIO-Repository-Image-1.PNG" />
+    <Content Include="Resources\Images\FileIO\FileIO-Repository-Image-2.PNG" />
+    <Content Include="Resources\Images\FileIO\FileIO-Repository-Image-3.PNG" />
+    <Content Include="Resources\Images\FileIO\Screenshot_1.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_2.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_3.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_4.png" />
+    <Content Include="Resources\Images\FileIO\Screenshot_5.png" />
+    <Content Include="Resources\Images\Final Project\Screenshot %2811%29.png" />
+    <Content Include="Resources\Images\Final Project\Screenshot %2812%29.png" />
+    <Content Include="Resources\Images\Final Project\Screenshot %2813%29.png" />
+    <Content Include="Resources\Images\Final Project\Screenshot %2814%29.png" />
+    <Content Include="Resources\Images\Final Project\Screenshot %2815%29.png" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\ConverterPageTemplate.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\GitHistory-1.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\GitHistory-2.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\GitHistory-3.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\GitHistory-4.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\PullRequestHistory-1.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\PullRequestHistory-2.PNG" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\Screenshot-1.png" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\Screenshot-2.png" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\Screenshot-3.png" />
+    <Content Include="Resources\Images\UnitConversion\JavaScript\TeamStyleSheet.PNG" />
+    <Content Include="Resources\Images\UnitConversion\MvcServer\Screenshot %281%29.png" />
+    <Content Include="Resources\Images\UnitConversion\MvcServer\Screenshot %282%29.png" />
+    <Content Include="Resources\Images\UnitConversion\MvcServer\Screenshot %283%29.png" />
+    <Content Include="Resources\Images\UnitConversion\MvcServer\Screenshot %285%29.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -180,6 +217,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Content\PorfolioFont.css" />
+    <Content Include="Content\PortfolioColor.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -195,10 +234,15 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\FileIO\Index.cshtml" />
+    <Content Include="Views\SafeNet\Index.cshtml" />
+    <Content Include="Views\UnitConversion\JavaScript.cshtml" />
+    <Content Include="Views\UnitConversion\MvcServer.cshtml" />
+    <Content Include="Views\FinalProject\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\PersonalScripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

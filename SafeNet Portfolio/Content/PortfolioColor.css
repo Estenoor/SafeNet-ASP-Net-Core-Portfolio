@@ -1,0 +1,45 @@
+﻿/*
+    Background Colors
+*/
+.background-blue {
+    background-color: #417378;
+}
+
+.background-cyan {
+    background-color: #a4cfbe;
+}
+
+.background-dark-grey {
+    background-color: #3e423a;
+}
+
+.background-grey {
+    background-color: #6c6e58;
+}
+
+.background-light-grey {
+    background-color: #f4f7d9;
+}
+
+/*
+    Font Colors
+*/
+.font-blue {
+    color: #417378;
+}
+
+.font-cyan {
+    color: #a4cfbe;
+}
+
+.font-dark-grey {
+    color: #3e423a;
+}
+
+.font-grey {
+    color: #6c6e58;
+}
+
+.font-light-grey {
+    color: #f4f7d9;
+}
